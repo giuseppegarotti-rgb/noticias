@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang=“pt-BR”>
+    <head>
+        <meta charset=“UTF-8”>
+        <meta name=“viewport” content=“width=device-width, initial-scale=1.0”>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <title>Barbearia Galileu</title>
+    </head>
+    <body>
+        <!-- Menu Html -->
+        <nav class="navmenu">
+            <!-- <div> <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt=""> </div> -->
+            <div class="logo">Barbearia Galileu</div>
+            <ul class="menu">
+                <li><a class="a_menu" href="index.html">Home</a></li>
+                <li><a class="a_menu" href="servicos.html">Serviços</a></li>
+                <li><a class="a_menu" href="#">Produtos</a></li>
+                <li><a class="a_menu" href="#">Contato</a></li>
+            </ul>
+        </nav>
+        <section class="hero">
+            <div class="px-4 py-5 my-5 text-center"> 
+                <h1 class="display-5 fw-bold" style="color: #FFE600;">Barbearia Galileu</h1>
+
+                <div class="col-lg-6 mx-auto"> 
+                    <p class="lead mb-4">
+                        Barbearia Galileu: Onde o Cuidado é Exclusivo. Vá além do básico. Nossa missão é clara: utilizar a técnica refinada e o melhor estilo para garantir que sua barba e cabelo representem a sua melhor versão.
+                    </p> 
+                    <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> 
+                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Agendar Serviço</button> <button type="button" class="btn btn-outline-secondary btn-lg px-4">Tipos de Cortes</button> 
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <footer class="barbearia-footer">
+            <div class="footer-container">
+                <div class="footer-col footer-info">
+                  <h4 class="logo-footer">Barbearia Galileu</h4>
+                  <p>"Onde a tradição encontra o estilo."</p>
+                  <p>&copy; 2025 Barbearia Galileu. Todos os direitos reservados.</p>
+                </div>
+
+                <div class="footer-col footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#">Corte Clássico</a></li>
+                        <li><a href="#">Barba Terapia</a></li>
+                        <li><a href="#">Pacotes Especiais</a></li>
+                        <li><a href="#">Agendamento Online</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col footer-contact">
+                    <h4>Visite-nos</h4>
+                    <p>Rua da Tesoura, 45 - Centro Histórico</p>
+                    <p>São Paulo, SP</p>
+                    <p>Tel: (11) 9987-6543</p>
+                    <p>Seg - Sáb: 9h às 20h</p>
+                </div>
+
+                <div class="footer-col footer-social">
+                    <h4>Siga-nos</h4>
+                    <div class="social-icons">
+                        <a href="#">Instagram</a> |
+                        <a href="#">WhatsApp</a> |
+                        <a href="#">Localização</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>
